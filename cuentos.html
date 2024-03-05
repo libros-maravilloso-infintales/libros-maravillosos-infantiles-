@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CUENTOS</title>
+  <link rel="stylesheet" href="style.css">
+ <nav>
+    <a href="index.html">INICIO</a>
+    <a href="cuentos.html">CUENTOS</a>
+         <a href="https://www.google.com/">BUSCAR CUENTOS </a>
+    </nav>
+    
+</head>
+<br>
+<head>
+    <style>
+      
+    body{
+      background-color: rgba(61, 3, 66, 0.952); /* Color de fondo azul */
+   
+    }
+    
+    .burbuja {
+      width: 20px;
+      height: 20px;
+      background-color: rgba(255, 255, 255, 0.5); /* Color de las burbujas */
+      position: absolute;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra de las burbujas */
+      animation-name: flotar;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes flotar {
+      0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(-200px) rotate(360deg);
+      }
+      100% {
+        transform: translateY(0) rotate(720deg);
+      }
+    }
+    
+    .titulo {
+      font-family: "Ghibo Talk", sans-serif;
+      font-size: 20px;
+      color: #fff; /* Color de la letra */
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 20px; /* Ajusta la posición vertical del título */
+    }
+  </style>
+
+
+<script>
+  function generarBurbujas() {
+    var contenedor = document.body;
+    var cantidadBurbujas = 50;
+    
+    for (var i = 0; i < cantidadBurbujas; i++) {
+      var burbuja = document.createElement("div");
+      burbuja.className = "burbuja";
+      burbuja.style.left = Math.random() * 100 + "%";
+      contenedor.appendChild(burbuja);
+    }
+  }
+  
+  generarBurbujas();
+</script>
+<body>
+    <br>
+    <div>
+        <BR>
+
+<center><button><a href="caperucita roja.html"><img src="button.jpeg" width="500" height="500" alt=""></a></button>
+<button><a href="adivina cunato te quiero.html"><img src="conejo.jpg" width="500" height="500" alt=""></a></button>
+</center>
+        </BR>
+        </div>
+        <div>
+            <BR>
+<center><button><a href="El patito feo.html"><img src="patito feo.jpeg" width="500" height="500" alt=""></a></button>
+<button><a href="la rata presumida.html"><img src="rata codiciosa.jpeg" width="500" height="500" alt=""></a></button>
+</center>
+            </BR>
+            </div>
+            <center>
+            <div><br><button><a href="gira la tortuga.html"><img src="tortuga.jpeg" width="500" height="500" alt=""></a></button>
+              <button><a href="ahi va.html"><img src="pajarito.jpeg" width="500" height="500" alt=""></a></button>
+            </center>
+        </div>
+
+        <div><br>
+       <center>
+<button><a href="simplemente yo.html"><img src="simplemente yo.jpeg" width="500" height="500" alt=""></a></button>
+<button><a href="los musicos de bremen.html"><img src="burrito.jpeg" width="500" height="500" alt=""></a></button>
+        </center>
+</br>
+        </div>
+
+        <div>
+          <br>
+          <center>
+          <button><a href="el raton nodormilon.html"><img src="el raton.jpeg" width="500" height="500" alt=""></a></button>
+          <button><a href="los tres cerditos.html"><img src="cerditos.jpeg" width="500" height="500" alt=""></a></button>
+        
+          </center>
+        </br>
+  
+        </div>
+
+        <div>
+          <br>
+          <center>
+          <button><a href="la lechera.html"><img src="la lechera.jpeg" width="500" height="500" alt=""></a></button>
+          <button><a href="a que sabe la luna.html"><img src="luna.png" width="500" height="500" alt=""></a></button>
+          </center>
+        </br>
+        </div>
+
+        
+
+            <DIV>
+                <BR>
+<center>
+  <button><a href="hansel y gretel.html"><img src="hansel.jfif" width="500" height="500" alt=""></a></button>
+<div style="border-left: 1px solid black; height: 50%; position: absolute;
+left: 50px;"></div>
+
+<div style="border-left: 1px solid black; height: 50%; position: absolute;
+left: 50px;"></div>
+<button><a href="el pastor mentiroso.html"><img src="el pasor.jpeg" width="500" height="500" alt=""></a></button>
+</center>
+</body>
+</html>

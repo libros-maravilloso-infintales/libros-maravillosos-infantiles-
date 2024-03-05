@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Libros Maravillosos Infantiles</title>
+  <link rel="stylesheet" href="style.css">
+ <nav>
+    <a href="index.html">INICIO</a>
+    <a href="cuentos.html">CUENTOS</a>
+         <a href="https://www.google.com/">BUSCAR CUENTOS </a>
+    </nav>
+    
+</head>
+<br>
+<head>
+  <style>
+     body{
+      background-color: rgba(61, 3, 66, 0.952); /* Color de fondo azul */
+      
+    }
+    
+    .burbuja {
+      width: 20px;
+      height: 20px;
+      background-color: rgba(255, 255, 255, 0.5); /* Color de las burbujas */
+      position: absolute;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra de las burbujas */
+      animation-name: flotar;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes flotar {
+      0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(-200px) rotate(360deg);
+      }
+      100% {
+        transform: translateY(0) rotate(720deg);
+      }
+    }
+    
+    .titulo {
+      font-family: "Ghibo Talk", sans-serif;
+      font-size: 20px;
+      color: #fff; /* Color de la letra */
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 20px; /* Ajusta la posición vertical del título */
+    }
+  </style>
+
+
+<body>
+  <!-- Generar burbujas de forma dinámica -->
+  <script>
+    function generarBurbujas() {
+      var contenedor = document.body;
+      var cantidadBurbujas = 50;
+      
+      for (var i = 0; i < cantidadBurbujas; i++) {
+        var burbuja = document.createElement("div");
+        burbuja.className = "burbuja";
+        burbuja.style.left = Math.random() * 100 + "%";
+        contenedor.appendChild(burbuja);
+      }
+    }
+    
+    generarBurbujas();
+  </script>
+   
+  
+  <h1 class="titulo">
+     Libros<br>
+     Maravillosos<br>
+     Infantiles<br>
+    <img src="corazoncito 77.jpeg">
+
+  </h1>
+
+ 
+</body>
+</html>
