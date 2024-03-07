@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html>
 <head>
-
-  <title>CUENTOS</title>
+  <title>Libros Maravillosos Infantiles</title>
   <link rel="stylesheet" href="style.css">
-
  <nav>
     <a href="index.html">INICIO</a>
     <a href="cuentos.html">CUENTOS</a>
@@ -14,11 +13,10 @@
 </head>
 <br>
 <head>
-    <style>
-      
-    body{
+  <style>
+     {
       background-color: rgba(61, 3, 66, 0.952); /* Color de fondo azul */
-   
+      overflow: hidden; /* Oculta el desbordamiento de las burbujas */
     }
     
     .burbuja {
@@ -52,35 +50,42 @@
       color: #fff; /* Color de la letra */
       text-align: center;
       text-transform: uppercase;
-      margin-top: 20px; /* Ajusta la posición vertical del título */
+      margin-top: 20px; /* Ajusta la posiciÃģn vertical del tÃ­tulo */
     }
   </style>
 
 
-<script>
-  function generarBurbujas() {
-    var contenedor = document.body;
-    var cantidadBurbujas = 50;
-    
-    for (var i = 0; i < cantidadBurbujas; i++) {
-      var burbuja = document.createElement("div");
-      burbuja.className = "burbuja";
-      burbuja.style.left = Math.random() * 100 + "%";
-      contenedor.appendChild(burbuja);
-    }
-  }
-  
-  generarBurbujas();
-</script>
 <body>
-
-    <br>
-  <center>  <h1 class="titulo">
+  <!-- Generar burbujas de forma dinÃĄmica -->
+  <script>
+    function generarBurbujas() {
+      var contenedor = document.body;
+      var cantidadBurbujas = 50;
+      
+      for (var i = 0; i < cantidadBurbujas; i++) {
+        var burbuja = document.createElement("div");
+        burbuja.className = "burbuja";
+        burbuja.style.left = Math.random() * 100 + "%";
+        contenedor.appendChild(burbuja);
+      }
+    }
+    
+    generarBurbujas();
+  </script>
+   
+  
+  <h1 class="titulo">
      Libros<br>
      Maravillosos<br>
      Infantiles<br>
-    <img src="corazoncito 77.jpeg"></h1>
-  </center>
-      <meta name="viewport" content="width=device-width, inicial-scale=1">
+    <img src="IMG/corazoncito 77.jpeg">
+
+  </h1>
+ <meta name="viewport" content="width=device-width, inicial-scale=1">
+
+ 
 </body>
 </html>
+    
+   
+     
