@@ -33,7 +33,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 2000px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -44,7 +44,7 @@ img {vertical-align: middle;}
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 1opx;
+  bottom: 8px;
   width: 100%;
   text-align: center;
 }
